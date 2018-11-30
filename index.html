@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spin Records</title>
+	<style>
+		legend {
+			float: left;
+			color: #0000f;
+			font-style: italic;
+			font-style: small;
+		}
+	</style>
+</head>
+<body>
+<form method="post" action="mailto:spinrecords@isp.com">
+
+<header>
+	<img src="spinrecords.jpg" width="410" height="139" alt="spin records logo">
+</header>
+
+<p>We would like to know what type of music you enjoy so we can provice that music via streaming and download. Please complete our survey.</p>
+
+<fieldset><legend>Listener Information</legend>
+	<p>First name: <input name="firstname"  type="text" /> &nbsp; &nbsp;
+	   Last name:  <input name="lastname"   type="text" size="25"> &nbsp; &nbsp;
+       E-mail Address: <input name="email" type="text" size="25"></p>
+</fieldset>
+
+<fieldset><legend>Music Genre and Purchasing Habits</legend>
+<br>Select the type of music you prefer:
+<br><input name="music type" type="checkbox" value="country">Country &nbsp;
+
+<input name="musictype" type="checkbox" value="folk">Folk &nbsp;
+<input name="musictype" type="checkbox" value="latin">Latin &nbsp;
+<input name="musictype" type="checkbox" value="pop">Pop &nbsp;
+<input name="musictype" type="checkbox" value="rap">Rap &nbsp;
+<input name="musictype" type="checkbox" value="rock">Rock &nbsp;
+
+<p>Where do you make most of your music purchases:
+<br><input name="purchases" type="radio" value="none">Don't buy music &nbsp;
+<input name="purchases" type="radio" value="itunes">iTunes &nbsp;
+<input name="purchases" type="radio" value="amazon">Amazon &nbsp;
+<input name="purchases" type="radio" value="online">other Online store &nbsp;
+<input name="purchases" type="radio" value="retail">Retail Store &nbsp;
+</p>	
+</fieldset>
+
+<fieldset><legend>Radio Stations</legend>
+	
+	<p>Favorite Internet radio station:
+		<select name="station">
+			<option>Google</option>
+			<option>Live 365</option>
+			<option>Pandora</option>
+			<option>Slacker</option>
+		</select>
+
+	&nbsp; &nbsp;Name station not listed:
+	   <input name="additstation" type="text" size="30" maxlength="30"></p>
+</fieldset>
+
+<br>What else can you tell us about your music preferences?
+<br><textarea name="other" rows="3" cols="100"></textarea>
+
+<p><input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+<br><br>Thank you for completing our survey</p>
+
+</form>
+</body>
+</html>
